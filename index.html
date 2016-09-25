@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Art of Where | Custom leggings, dresses, scarves and more</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Roboto|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  </head>
+  <body>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" id="burgers"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+          <a href="#" class="brand-logo" id="logo-bump"><img alt="" src="https://static.artofwhere.net/img/logo.svg"/></a>
+          <a href="#" id="space"></a>
+          <a href="#" id="shop">SHOP</a>
+          <a href="#" id="create">CREATE</a>
+          <a href="#" id="print-fabric">PRINT FABRIC</a>
+          <a href="#" id="bar"></a>
+          <a href="#" id="drop-ship">DROP SHIP</a>
+          <a href="#" id="wholesale">WHOLESALE</a>
+          <a href="#" id="products">PRODUCTS</a>
+          <a href="#" id="info">INFO</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">LOGIN</a></li>
+            <li><a href="badges.html">SIGNUP</a></li>
+            <li><a href="collapsible.html">FR</a></li>
+            <li><a href="collapsible.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="carousel carousel-slider center" data-indicators="true">
+        <div class="carousel-fixed-item center">
+        </div>
+        <div class="carousel-item white-text" href="#one!" id="white-wall">
+          <h2>New! One-of-a-kind</h2>
+          <h2>Wood Prints</h2>
+          <p class="white-text">Your artwork and photos combined with the uniqueness of wood at prices designed for resellers.</p><br/>
+          <a class="btn grey white-text darken-text-2">READ MORE</a>
+          <a class="btn blue white-text darken-text-2">CREATE YOUR OWN</a>
+        </div>
+        <div class="carousel-item white-text" href="#two!" id="phone-case">
+          <h2>New Device Cases!</h2>
+          <p class="white-text">We've added tons of new phone cases, but there's more, we now also have 3D previews!</p><br/>
+          <a class="btn pink white-text darken-text-2">SHOP</a>
+          <a class="btn blue white-text darken-text-2">CREATE</a>
+          <a class="btn grey white-text darken-text-2">MORE INFO</a>
+        </div>
+        <div class="carousel-item white-text" href="#three!">
+          <h2 id="vid-text">New Fabrics, Lower Pricing!</h2>
+          <p id="vid-text2">Design fabrics in our revamped design lab and add them to your store.</p>
+          <video id="banner-vid" autoplay loop muted preload>
+            <source src="https://static.artofwhere.net/img/pages/fabric/fabric-printing.mp4" type="video/mp4">
+            <source src="https://static.artofwhere.net/img/pages/fabric/fabric-printing.ogv" type="video/ogv">
+            <!-- <source src="https://static.artofwhere.net/img/pages/fabric/fabric-printing-bg.jpg" type="img.jpg"> -->
+          </video>
+          <a class="btn grey white-text darken-text-2">CREATE</a>
+          <a class="btn grey white-text darken-text-2">MORE INFO</a>
+        </div>
+
+
+        <div class="carousel-item white-text" href="#four!" id="big-cartel-bg">
+        <!-- <img class="responsive-img" alt="" src="images/bigcartel-and-artofwhere.png"/>
+          <a href="#"><img src="https://static.artofwhere.net/img/pages/drop-ship/bigcartel/bigcartel-and-artofwhere.svg" alt=""/></a> -->
+          <p class="white-text">Link your existing products on your Big Cartel store with your Art of Where products and keep the orders flowing.</p>
+          <a class="btn grey white-text darken-text-2">LEARN MORE</a>
+        </div>
+
+
+        <div class="carousel-item white-text" href="#five!" id="sewing-lady">
+          <h3>Drop Ship & Wholesale</h3>
+          <p class="white-text">Order Fulfillment services designed with artists in mind. Wholesale starting at 6 pieces.</p><br/>
+          <a class="btn blue white-text darken-text-2">DROPSHIP INFO</a>
+          <a class="btn blue white-text darken-text-2">WHOLESALE INFO</a>
+        </div>
+      </div>
+
+
+
+
+      <div class="row">
+                <div class="col m4 phone-3" id="stretchy-phones">
+                  <p>We offer wholesale and drop ship options at low prices</p>
+                  <a class="btn grey white-text darken-text-2">READ MORE</a>
+                </div>
+        <!-- <div class="col m4 phone-3"><img src="https://static.artofwhere.net/img/home-tiles/wholesale-device-cases.jpg" alt=""/></div> -->
+        <div class="col m4 etsy-3"><p><img src="https://static.artofwhere.net/img/home-tiles/orange-bg.jpg" alt=""/></div>
+        <div class="col m4 fabric-3"><img src="https://static.artofwhere.net/img/home-tiles/fabric-bg.jpg" alt=""/></div>
+      </div>
+
+
+
+
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+      <script>
+        $(document).ready(function(){
+            $('.carousel.carousel-slider').carousel({full_width: true});
+        });
+
+      </script>
+      <script>
+              $(document).ready(function(){
+        $('.carousel').carousel({
+            // padding: 200
+        })
+        $('.carousel.carousel-slider').carousel({full_width: true});
+        setTimeout(function(){
+         setInterval(function(){
+           $('.carousel').carousel('next');
+         }, 3000);
+       },1000);
+      });
+        </script>
+
+  </body>
+</html>

@@ -1,0 +1,67 @@
+FIX:
+nav logo centers on min width
+divider lines on navbar buttons
+navbar WTF SHADOW
+hamburgers
+
+
+
+
+
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Roboto Slab', serif;
+
+
+/*CAN YOU USE MAIN LINK TO USE DIFFERENT FONT STYLES?*/
+
+NAVBAR - min760 - turns into hamburger
+  margin-left: 250px until 1600
+logo:
+https://static.artofwhere.net/img/logo.svg
+max width: 320*30 at
+@mid width:260*23
+@min-width:380 turns to icon
+
+
+
+
+icon:
+https://static.artofwhere.net/img/logo-small.svg  103*29
+or
+https://static.artofwhere.net/img/web-icons/android-icon-192x192.png
+sizes: 57, 60, 72, 76, 114, 120, 144, 152, 180, 192,
+
+
+top banner max-vw 1451x556
+            min-750x556
+BANNER
+1) https://static.artofwhere.net/img/home-slider/wood-prints-1.jpg
+
+2) 3 vids) https://static.artofwhere.net/img/pages/fabric/fabric-printing.webm
+https://static.artofwhere.net/img/pages/fabric/fabric-printing.mp4
+https://static.artofwhere.net/img/pages/fabric/fabric-printing.ogv
+jpeg https://static.artofwhere.net/img/pages/fabric/fabric-printing-bg.jpg
+
+3)https://static.artofwhere.net/img/home-slider/device-cases.jpg
+3)https://static.artofwhere.net/img/home-slider/girl-running-custom-printed-shorts.jpg
+
+4)https://static.artofwhere.net/img/pages/drop-ship/bigcartel/artist-workplace.jpg
+
+5)https://static.artofwhere.net/img/home-slider/girl-sewing.jpg
+
+
+icons where?
+
+top tile - max475*376
+          min 300*227
+1)https://static.artofwhere.net/img/home-tiles/wholesale-device-cases.jpg
+2)https://static.artofwhere.net/img/home-tiles/orange-bg.jpg
+3)https://static.artofwhere.net/img/home-tiles/fabric-bg.jpg
+
+bottom tile -
+1)https://static.artofwhere.net/img/create/thumbnails/leggings.jpg
+2)https://static.artofwhere.net/img/create/thumbnails/pillow22x22.jpg
+3)https://static.artofwhere.net/img/create/thumbnails/square-scarf.jpg
+4)https://static.artofwhere.net/img/create/thumbnails/iphone6.jpg

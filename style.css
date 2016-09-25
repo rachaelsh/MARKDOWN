@@ -1,0 +1,176 @@
+.brand-logo img{
+  height: 24px;
+  width: auto;
+  margin-left:250px;
+
+}
+
+#logo-bump{
+  margin-top: -15px;
+  margin-bottom: 7px;
+}
+
+.nav-wrapper {
+  background-color: white;
+}
+
+#burgers{
+    align-self: center;
+    margin:20px;
+    color: #E9188C;
+}
+
+#space{
+  display:inline-block;
+  padding-top:50px;
+}
+
+#shop{
+  color:#E9188C;
+  padding: 4px;
+  font-family: 'Roboto', sans-serif;
+  margin-left:250px;
+  margin-right:-2px;
+  border-bottom: 2px solid #E9188C;
+}
+
+#create{
+  align-items: baseline;
+  align-content: flex-end;
+  color:#2BACE2;
+  font-family: 'Roboto', sans-serif;
+  padding: 4px;
+  margin-left:-2px;
+  margin-right:-2px;
+  border-bottom: 2px solid #2BACE2;
+}
+
+#print-fabric{
+  align-items: baseline;
+  align-content: flex-end;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  padding: 4px;
+  margin-left:-2px;
+  margin-right:-2px;
+  border-bottom: 2px solid black;
+}
+
+#bar{
+  align-items: baseline;
+  align-content: flex-end;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  padding: 4px;
+  margin-left:-2px;
+  margin-right:10px;
+  border-right: 1px solid grey;
+}
+
+#drop-ship{
+  align-items: baseline;
+  align-content: flex-end;
+  color:#E9188C;
+  font-family: 'Roboto', sans-serif;
+  padding: 4px;
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right:-2px;
+  border-bottom: 2px solid #E9188C;
+  margin-bottom: -10px;
+}
+
+#wholesale{
+  align-items: baseline;
+  align-content: flex-end;
+  color:#2BACE2;
+  font-family: 'Roboto', sans-serif;
+  padding: 4px;
+  margin-left:-2px;
+  margin-right:-2px;
+  border-bottom: 2px solid #2BACE2;
+}
+
+#products{
+  align-items: baseline;
+  align-content: flex-end;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  padding: 4px;
+  margin-left:-2px;
+  margin-right:-2px;
+  border-bottom: 2px solid black;
+}
+
+#info{
+  align-items: baseline;
+  align-content: flex-end;
+  /*align-items: flex-end;*/
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  padding: 4px;
+  margin-left:-2px;
+  margin-right:-2px;
+  margin-bottom: -15px;
+  border-bottom: 2px solid black;
+}
+/*
+#video-button{
+  position: relative;
+  top:30px;
+  left:0;
+}*/
+/*#vid-text, #vid-text2{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+
+}*/
+
+/*#big-cartel-bg img{
+  height: 400px;
+  width: auto;
+}*/
+
+
+#nav-mobile a {
+  color: grey;
+}
+
+#white-wall{
+  background-image: url(https://static.artofwhere.net/img/home-slider/wood-prints-1.jpg);
+background-size: 100% 400px;
+
+}
+ #phone-case{
+   background-image: url(https://static.artofwhere.net/img/home-slider/device-cases.jpg);
+   background-size: 100vw 400px;
+
+ }
+ #banner-vid{
+   background-size: 100% 400px;
+
+ }
+ #big-cartel-bg{
+   background-image: url(https://static.artofwhere.net/img/pages/drop-ship/bigcartel/artist-workplace.jpg);
+   background-size: 100% 400px;
+
+ }
+ #sewing-lady{
+   background-image: url(https://static.artofwhere.net/img/home-slider/girl-sewing.jpg);
+   background-size: 100% 400px;
+ }
+/*
+.row{
+  height: 450px;
+  width: 350px;
+}*/
+
+ .phone-3{
+    background-image: url(https://static.artofwhere.net/img/home-tiles/wholesale-device-cases.jpg);
+    /*background-size:100%;*/
+    /*background-size: contain;*/
+
+ }
